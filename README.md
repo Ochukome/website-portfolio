@@ -50,7 +50,8 @@ The project structure is simple, following a modular format for ease of navigati
     └── favour ezet pic.jpeg  # Profile image
 
 ```
-#Skills & Expertise
+##Skills & Expertise
+
 Frontend Development: HTML5, CSS3, JavaScript (basic), Python (in progress)
 
 Data Analysis: Excel, beginner-level analytics
@@ -63,7 +64,7 @@ Communication: Written and verbal, with a focus on digital engagement
 
 Creativity: Storytelling, editing, visual communication
 
-#Contact
+##Contact
 
 You can reach out to me via email or LinkedIn:
 
@@ -73,7 +74,7 @@ You can reach out to me via email or LinkedIn:
 
 Feel free to get in touch if you want to collaborate or if you have any questions!
 
-#License
+##License
 This project is open-source and available under the MIT License. See the LICENSE file for more information.
  ```bash
 You can copy and paste this directly into a `README.md` file in your project repository. Let me know if you'd like to add or adjust anything!
