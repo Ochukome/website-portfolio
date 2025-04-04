@@ -38,7 +38,6 @@ For development: Modify the HTML, CSS, and images to personalize or update the c
 
 **Project Structure**
 The project structure is simple, following a modular format for ease of navigation and development. Here’s a quick look at the folder structure:
-
   ```bash  
 /portfolio
 ├── index.html          # Main HTML file (home page)
@@ -48,14 +47,9 @@ The project structure is simple, following a modular format for ease of navigati
 ├── projects.html       # Projects page
 ├── style.css           # Main stylesheet for styling the pages
 └── images/             # Folder for profile and project images
-    └── favour ezet pic.jpeg  # Profile image  
+    └── favour ezet pic.jpeg  # Profile image
 
-
-
-
-
-
- ```bash
+```
 Skills & Expertise
 Frontend Development: HTML5, CSS3, JavaScript (basic), Python (in progress)
 
