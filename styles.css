@@ -1,0 +1,138 @@
+/* Basic reset for consistency */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #440e0e;
+    color: #000;
+}
+
+/* Header styling */
+header {
+    background: #333;
+    color: rgb(207, 12, 12);
+    padding: 1rem;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 1rem;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+header nav ul li a {
+    color: rgb(223, 211, 211);
+    text-decoration: none;
+    font-size: 1.1rem;
+    transition: color 0.3s ease;
+}
+
+header nav ul li a:hover {
+    color: #ff6347;  /* Change color on hover */
+}
+
+/* Hero section */
+#hero {
+    background: #333;
+    color: rgb(19, 173, 45);
+    text-align: center;
+    padding: 3rem 1rem;
+}
+
+#hero h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+#hero p {
+    font-size: 1.2rem;
+}
+
+/* Section styling */
+section {
+    padding: 2rem;
+    margin: 1rem 0;
+    color: #000;
+    background: rgb(199, 129, 129);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+section:hover {
+    transform: scale(1.05);  /* Slight scale effect when hovering */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);  /* Shadow change on hover */
+}
+
+h2 {
+    margin-bottom: 1rem;
+}
+
+p {
+    margin-bottom: 1rem;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+/* Contact section styling */
+.contact-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-info a {
+    margin-bottom: 1rem;
+    transition: color 0.3s ease;
+}
+
+.contact-info a:hover {
+    color: #c4b0ac;  /* Color change on hover */
+}
+
+/* Hover effect on images */
+.profile-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.profile-image:hover {
+    transform: scale(1.1);  /* Image zoom effect */
+    filter: brightness(1.1);  /* Slight brightness effect */
+}
+
+/* Footer styling */
+footer {
+    text-align: center;
+    padding: 1rem;
+    background: #333;
+    color: white;
+}
+
+/* Smooth transition for all sections */
+section {
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+section:in-viewport {
+    opacity: 1;  /* Sections will fade in when in viewport */
+}
