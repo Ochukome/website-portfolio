@@ -23,10 +23,11 @@ To get started with this project locally, follow the instructions below:
 
 1. **Clone the repository** to your local machine:
    ```bash
-  git clone https://github.com/YourUsername/portfolio.git
+   git clone https://github.com/YourUsername/portfolio.git
 
 2. Navigate into the project directory:
-  cd portfolio
+    ```bash
+   cd portfolio
 
 4. Open the index.html file in your browser to view the portfolio: Simply double-click the index.html file to open it in your preferred browser.
 
@@ -38,6 +39,7 @@ For development: Modify the HTML, CSS, and images to personalize or update the c
 **Project Structure**
 The project structure is simple, following a modular format for ease of navigation and development. Here’s a quick look at the folder structure:
 
+  ```bash  
 /portfolio
 ├── index.html          # Main HTML file (home page)
 ├── about.html          # About me page
@@ -46,8 +48,14 @@ The project structure is simple, following a modular format for ease of navigati
 ├── projects.html       # Projects page
 ├── style.css           # Main stylesheet for styling the pages
 └── images/             # Folder for profile and project images
-    └── favour ezet pic.jpeg  # Profile image
+    └── favour ezet pic.jpeg  # Profile image  
 
+
+
+
+
+
+ ```bash
 Skills & Expertise
 Frontend Development: HTML5, CSS3, JavaScript (basic), Python (in progress)
 
@@ -73,5 +81,5 @@ Feel free to get in touch if you want to collaborate or if you have any question
 
 License
 This project is open-source and available under the MIT License. See the LICENSE file for more information.
-
+ ```bash
 You can copy and paste this directly into a `README.md` file in your project repository. Let me know if you'd like to add or adjust anything!
